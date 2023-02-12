@@ -1,5 +1,2 @@
-# Whitelist dApp
-
-
-Web3 App that allows users to enter Whitelist
-```
+# Whitelist
+dApp that allows to connect with your wallet and join an NFT whitelist
