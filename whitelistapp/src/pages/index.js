@@ -134,7 +134,16 @@ const renderButton = () => {
   };
 
 
-
+useEffect(() => {
+  if(walletConnected) {
+    Web3Modal.current = new Web3Modal({
+      network: "goerli",
+        providerOptions: {},
+        disableInjectedProvider: false,
+    });
+    connectWallet()
+  }
+}, [walletConnected])
 
 
 
